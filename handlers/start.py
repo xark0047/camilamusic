@@ -11,10 +11,8 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am camilla Music Bot, an open-source bot that lets you play music in your Telegram groups voice chat.
+I am Mystic Music Bot, an open-source bot that lets you play music in your Telegram groups voice chat.
 
-
-To add in your group contact us at @camila_support
 
 Use the buttons below to know more about me.""",
         reply_markup=InlineKeyboardMarkup(
@@ -26,13 +24,13 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/camila_support"
+                        "💬 Group", url="https://t.me/asiansworld"
                     ),
                     InlineKeyboardButton(
-                        "music userbot", url="https://t.me/camilaowner"
+                        "music userbot", url="https://t.me/assista_r0bot"
                     ),
                     InlineKeyboardButton(
-                        "offtopic", url="https://t.me/OnlineHangout" )
+                        "offtopic", url="https://t.me/asiansworld" )
                 ]
               ]  
             )
